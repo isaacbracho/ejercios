@@ -1,0 +1,94 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tarjeta de Presentacion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .card h1 {
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 1.8em;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 25px;
+            border: 4px solid #4CAF50; /* Color de borde para la foto */
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 15px 15px;
+            text-decoration: none;
+            color: #555;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .social-links a:hover {
+            background-color: #e2e2e2;
+            color: #333;
+        }
+        .social-links .facebook {
+            background-color: #3b5998;
+            color: white;
+        }
+        .social-links .instagram {
+            background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+            color: white;
+        }
+        .social-links .whatsapp {
+            background-color: #25d366;
+            color: white;
+        }
+        .social-links .facebook:hover, .social-links .instagram:hover, .social-links .whatsapp:hover {
+            opacity: 0.9;
+        }
+        .contact-info p {
+            color: #666;
+            font-size: 1em;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>¡Bienvenido a mi Tarjeta de Presentacion!</h1>
+        <img src="https://i.pinimg.com/736x/0f/ca/c7/0fcac7731b82c88afe4c013bc01f6461.jpg" alt="foto" width="100"  class="profile-pic" >
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/TU_USUARIO_FACEBOOK" target="_blank" class="facebook">Facebook</a>
+            <a href="https://www.instagram.com/TU_USUARIO_INSTAGRAM" target="_blank" class="instagram">Instagram</a>
+            <a href="https://wa.me/TU_NUMERO_DE_TELEFONO_AQUI" target="_blank" class="whatsapp">WhatsApp</a>
+        </div>
+
+        <div class="contact-info">
+            <p>Conectate con migo en las redes sociales!</p>
+        </div>
+    </div>
+</body>
+</html>
